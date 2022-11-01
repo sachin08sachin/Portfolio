@@ -13,6 +13,7 @@
 
   border: 0px solid red;
 }
+
 .left-home-container {
   text-align: left;
   border: 0px solid;
@@ -22,10 +23,15 @@
   width: 15%;
   padding: 10px;
   border-radius: 10px;
-  background-color: rgb(113, 194, 241);
+  background-color: rgb(40, 171, 248);
   color: white;
   font-weight: 600;
   border: 0px;
+}
+.left-home-container button:hover{
+  cursor:pointer;
+  color:  rgb(5, 162, 254);
+  background-color: aqua;
 }
 .left-home-container h2 {
   font-size: 3rem;
@@ -47,12 +53,12 @@
 }
 
 .right-home-container :nth-child(1) {
-  width: 37rem;
+  width: 36rem;
   text-align: center;
   align-items: center;
   position: absolute;
   right: 9%;
-  top: 6rem;
+  top: 6.24rem;
 }
 
 .right-home-container :nth-child(2) {
@@ -75,7 +81,7 @@
   font: 400;
 }
 .dynamic-txt li {
-  color: rgb(113, 194, 241);
+  color: rgb(40, 171, 248);
   padding-left: 5px;
   margin-top: -10px;
   list-style: none;
@@ -94,6 +100,19 @@
   background-color: white;
   border-left: 0px solid black;
   animation: typing 3.5s linear infinite;
+}
+.linkedin{
+  width:60px;
+  height:100px;
+  border:none;
+  position :fixed;
+  left:0.5rem;
+  bottom:2rem;
+  line-height: 2;
+}
+.linkedin:hover{
+  cursor:pointer;
+  
 }
 @keyframes typing {
   100% {
@@ -197,7 +216,7 @@
   }
   .dynamic-txt li {
     padding-bottom: 10px;
-    color: rgb(113, 194, 241);
+    color: rgb(40, 171, 248);
     padding-left: 5px;
     margin-top: -10px;
     list-style: none;
@@ -208,7 +227,7 @@
     width: 25%;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgb(113, 194, 241);
+    background-color: rgb(40, 171, 248);
     color: white;
     font-weight: 600;
   }

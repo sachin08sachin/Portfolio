@@ -1,5 +1,8 @@
 import React from 'react';
 import './Home.css';
+import { ImLinkedin } from 'react-icons/im';
+import {GoMarkGithub} from 'react-icons/go'
+// import { Link } from 'react-scroll';
 // import Fade from 'react-reveal/Fade';
 export const Home = () => {
   return (
@@ -10,7 +13,7 @@ export const Home = () => {
             <span>
               <h2>
                 {' '}
-                <span style={{ color: 'rgb(113, 194, 241)' }}> Hello,</span> my name is
+                <span style={{ color: 'rgb(40, 171, 248)' }}> Hello,</span> my name is
               </h2>
             </span>
             <span>
@@ -30,7 +33,7 @@ export const Home = () => {
             <br />
 
             <span>
-              <button>RESUME</button>
+              <a href='./assets/Sachin_Resume.pdf' download='./assets/Sachin_Resume.pdf'><button  >RESUME</button></a>
             </span>
           </div>
 
@@ -40,6 +43,11 @@ export const Home = () => {
           </div>
         </div>
       {/* </Fade> */}
+      <div className='linkedin'>
+        <a href={'https://www.linkedin.com/feed/'}>  <ImLinkedin size={'3rem'} color={'  rgb(9, 164, 253)'}/> </a>
+        <a href={'https://github.com/sachin08sachin'}>  <GoMarkGithub size={'3rem'} color={'  rgb(9, 164, 253)'}/> </a>
+       
+      </div>
     </div>
   );
 };
