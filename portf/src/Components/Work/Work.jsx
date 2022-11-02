@@ -6,85 +6,85 @@ import { BsFillCameraVideoFill ,BsFillEyeFill,BsGithub} from 'react-icons/bs';
 
 export const Work = () => {
     const project=[{
-        img:"https://blendermedia.com/wp-content/uploads/2016/07/July12_banner.jpg",
-        name:"NIKE",
-        discription:"Entirely for Free! Start with a Template then Add Your Favorite Features. Get Free Web Hosting. Access 24/7 Customer Support. Use Tools to Help You Grow Online!",
-        tech:"HTML,CSS,JAVASCRIPT",
-        linked:"https://www.udemy.com/",
+        img:"./assets/E-commerce_Amazon1e.png",
+        name:"E-Commerce Amazon_Clone",
+        discription:"This E-commerce website is clone of Amazon, here I get data from backend and done some functionalities in frontend ",
+        tech:"HTML,CSS,Bootstrap,JS,React,NodeJs,ExpressJs",
+        linked:"",
         fachebook:"",
-        github:"https://github.com/"
+        github:"https://github.com/sachin08sachin/E-commerce_Amazon"
         
           },{
-            img:"https://blendermedia.com/wp-content/uploads/2016/07/July12_banner.jpg",
-            name:"NIKE",
-            discription:"Entirely for Free! Start with a Template then Add Your Favorite Features. Get Free Web Hosting. Access 24/7 Customer Support. Use Tools to Help You Grow Online!",
-            tech:"HTML,CSS,JAVASCRIPT,CHAKRE UI,REACT",
+            img:"./assets/BMI-calci1e.png",
+            name:"BMI-Calculator",
+            discription:"In BMI calculator , after when we enter weight and height we get our BMI value with proper image",
+            tech:"HTML,CSS,JAVASCRIPT,React",
             linked:"",
             fachebook:"",
-            github:""
+            github:"https://github.com/sachin08sachin/BMI-Calculator"
             
               },{
-                img:"https://blendermedia.com/wp-content/uploads/2016/07/July12_banner.jpg",
-                name:"NIKE",
-                discription:"Entirely for Free! Start with a Template then Add Your Favorite Features. Get Free Web Hosting. Access 24/7 Customer Support. Use Tools to Help You Grow Online!",
-                tech:"HTML,CSS,JAVASCRIPT,CHAKRE UI,REACT",
+                img:"./assets/keeperapp1e.png",
+                name:"Keeper_App(Google)-Clone",
+                discription:"In keeper App, we can able to add notes using hooks and update the number of notes in screen and we can delete the notes",
+                tech:"HTML,CSS,JAVASCRIPT,REACT",
                 linked:"",
                 fachebook:"",
-                github:""
+                github:"https://github.com/sachin08sachin/keeperapp"
                 
                   },{
-                    img:"https://blendermedia.com/wp-content/uploads/2016/07/July12_banner.jpg",
-                    name:"NIKE",
-                    discription:"Entirely for Free! Start with a Template then Add Your Favorite Features. Get Free Web Hosting. Access 24/7 Customer Support. Use Tools to Help You Grow Online!",
-                    tech:"HTML,CSS,JAVASCRIPT,CHAKRE UI,REACT",
+                    img:"./assets/netmedsclone.png",
+                    name:"Netmeds_Clone",
+                    discription:"In Netmeds clone, i implemented some functionalities, labtest, beauty,and we can order products to get in cart(add to cart)",
+                    tech:"HTML,CSS,JAVASCRIPT",
                     linked:"",
-                    fachebook:"",
-                    github:""
+                    fachebook:"https://bucolic-gaufre-2d43ce.netlify.app",
+                    github:"https://github.com/DeveloperShubhamKapoor/Netmeds-clone"
                     
                       },{
-                        img:"https://blendermedia.com/wp-content/uploads/2016/07/July12_banner.jpg",
-                        name:"NIKE",
-                        discription:"Entirely for Free! Start with a Template then Add Your Favorite Features. Get Free Web Hosting. Access 24/7 Customer Support. Use Tools to Help You Grow Online!",
-                        tech:"HTML,CSS,JAVASCRIPT,CHAKRE UI,REACT",
+                        img:"./assets/uboric1e.png",
+                        name:"Uboric_Clone",
+                        discription:"In this website, I had done using some functionality and we can order domestic products, sigin and signup and we can add products to our cart",
+                        tech:"HTML,CSS,JAVASCRIPT",
                         linked:"",
-                        fachebook:"",
-                        github:""
+                        fachebook:"https://zesty-horse-6e7f7f.netlify.app/",
+                        github:"https://github.com/VaibhavTyagi010/UboricWebsite-clone"
                         
                           },{
-                            img:"https://blendermedia.com/wp-content/uploads/2016/07/July12_banner.jpg",
-                            name:"NIKE",
-                            discription:"Entirely for Free! Start with a Template then Add Your Favorite Features. Get Free Web Hosting. Access 24/7 Customer Support. Use Tools to Help You Grow Online!",
-                            tech:"HTML,CSS,JAVASCRIPT,CHAKRE UI,REACT",
+                            img:"./assets/RollDice1e.png",
+                            name:"Dice_Challenge",
+                            discription:"In this we can able to edit player name and I had used some functionality and hooks.when we click on button it shows winner in the screen.",
+                            tech:"HTML,CSS,JAVASCRIPT",
                             linked:"",
-                            fachebook:"",
-                            github:""
+                            fachebook:"https://heartfelt-pithivier-596d9a.netlify.app/",
+                            github:"https://github.com/sachin08sachin/Dice-Game"
                             
                               },{
-                                img:"https://blendermedia.com/wp-content/uploads/2016/07/July12_banner.jpg",
-                                name:"NIKE",
-                                discription:"Entirely for Free! Start with a Template then Add Your Favorite Features. Get Free Web Hosting. Access 24/7 Customer Support. Use Tools to Help You Grow Online!",
-                                tech:"HTML,CSS,JAVASCRIPT,CHAKRE UI,REACT",
+                                img:"./assets/Ford_CSS1e.png",
+                                name:"FORD",
+                                discription:"In FORD landing page,I used CSS animation to move the car initially and some hover effect in button and some animation when page gets refresh.",
+                                tech:"HTML,CSS",
                                 linked:"",
-                                fachebook:"",
-                                github:""
+                                fachebook:"https://effervescent-dodol-8ec27f.netlify.app/",
+                                github:"https://github.com/sachin08sachin/HTML_CSS-Animation"
                                 
                                   },{
-                                    img:"https://blendermedia.com/wp-content/uploads/2016/07/July12_banner.jpg",
-                                    name:"NIKE",
+                                    img:"./assets/weather_backend1e.png",
+                                    name:"Weather_App",
                                     discription:"Entirely for Free! Start with a Template then Add Your Favorite Features. Get Free Web Hosting. Access 24/7 Customer Support. Use Tools to Help You Grow Online!",
-                                    tech:"HTML,CSS,JAVASCRIPT,CHAKRE UI,REACT",
+                                    tech:"HTML,CSS,JAVASCRIPT,React,Nodejs,ExpessJs",
                                     linked:"",
                                     fachebook:"",
-                                    github:""
+                                    github:"https://github.com/sachin08sachin/weather_backend"
                                     
                                       },{
-                                        img:"https://blendermedia.com/wp-content/uploads/2016/07/July12_banner.jpg",
+                                        img:"./assets/Digitalclock1e.png",
                                         name:"NIKE",
                                         discription:"Entirely for Free! Start with a Template then Add Your Favorite Features. Get Free Web Hosting. Access 24/7 Customer Support. Use Tools to Help You Grow Online!",
                                         tech:"HTML,CSS,JAVASCRIPT,CHAKRE UI,REACT",
                                         linked:"",
                                         fachebook:"",
-                                        github:""
+                                        github:"https://github.com/sachin08sachin/Digital_Clock"
                                         
                                           }
         
@@ -115,9 +115,9 @@ export const Work = () => {
 <h4>Tech :</h4>{e.tech}
 </div>
 <div className='work-div-button'>
-<button><BsFillCameraVideoFill size={"1.5rem"}/></button>
-  <button><BsFillEyeFill size={"1.5rem"}/></button>
-  <button><BsGithub size={"1.5rem"}/></button>
+<a href={e.linked} ><button><BsFillCameraVideoFill size={"1.5rem"}/></button></a>
+ <a href={e.fachebook} > <button><BsFillEyeFill size={"1.5rem"}/></button></a>
+ <a href={e.github}> <button><BsGithub size={"1.5rem"}/></button></a>
 </div>
   </div>
 ))}
